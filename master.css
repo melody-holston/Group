@@ -1,0 +1,15 @@
+.my-column {
+  background-color: pink;
+  border: 2px solid black;
+}
+.business-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .business-text {
+      display: none;}
+
+  }
